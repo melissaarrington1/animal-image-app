@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
+
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <nav
+        class="navbar is-dark"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <h1>We Love Puppies</h1>
+
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      </nav>
+      <main>
+        <section class="hero is-primary is-bold">
+          <div class="hero-body">
+            <div class="container">
+              <h1 class="title">
+                See some puppies now!
+              </h1>
+            </div>
+          </div>
+        </section>
+        <div class="button-section">
+          <button class="button is-primary">Go!</button>
+        </div>
+        <div class="random-dogs columns"></div>
+      </main>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
